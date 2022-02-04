@@ -142,6 +142,7 @@
     <ClCompile Include="i94_observers.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="DisplayElement.h" />
     <ClInclude Include="Observer.h" />
     <ClInclude Include="Subject.h" />
   </ItemGroup>
