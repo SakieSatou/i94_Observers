@@ -1,5 +1,8 @@
 #pragma once
 #include "Observer.h"
+#include <iostream>
+#include <list>
+using namespace std;
 
 class Subject
 {

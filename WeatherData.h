@@ -4,7 +4,7 @@
 #include <list>
 using namespace std;
 
-class WeatherData : Subject
+class WeatherData : public Subject
 {
 private:
 	list<Observer*> observers;
