@@ -15,7 +15,7 @@ public:
 	WeatherData();
 	void registerObserver(Observer* o);
 	void removeObserver(Observer* o);
-	void notifyObserver();
+	void notifyObservers();
 	void measurementsChanged();
 	void setMeasurements(float temperature, float humidity, float pressure);
 };

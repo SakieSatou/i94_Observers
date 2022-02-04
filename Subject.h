@@ -5,7 +5,7 @@ class Subject
 {
 public:
 	virtual void registerObserver(Observer* o) = 0;
-	virtual void remuveObserver(Observer* o) = 0;
-	virtual void notyfiObserver() = 0;
+	virtual void removeObserver(Observer* o) = 0;
+	virtual void notifyObservers() = 0;
 };
 
