@@ -24,9 +24,6 @@
     <ClCompile Include="CurrentConditionDisplay.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="StatisticsDisplay.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Observer.h">
@@ -42,9 +39,6 @@
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="CurrentConditionDisplay.h">
-      <Filter>Файлы заголовков</Filter>
-    </ClInclude>
-    <ClInclude Include="StatisticsDisplay.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
